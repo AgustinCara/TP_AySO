@@ -1,0 +1,242 @@
+ls
+whoami
+pwd
+echo "Hola"
+ls
+cd repogit/
+ls
+git clone https://github.com/AgustinCara/Repo_Carabajal.git
+history
+history > historial.txt
+ls
+cat historial.txt
+cd Repo_Carabajal/
+git status
+ls
+historial.txt >> /Repo_Carabajal
+cd repogit
+cd repogit/
+cd..
+cd /repogit
+cd .
+cd repogit/
+cd ..
+ls
+cd Repo_Carabajal/
+history > historial.txt
+ls
+git status
+git add .
+git status
+git commit -m "primer comit"
+git config --global user.email "agustin7.ch@gmail.com"
+git config --global user.name "AgustinCara"
+git commit -m "primer commit"
+git push
+exit
+pwd
+ls
+cd repogit
+pwd
+ls
+cd ..
+pwd
+ssh-keygen -t ed25516
+ssh-keygen -t ed25519
+ls -l
+ls -la
+cd .ssh
+ls -l
+cat id_ed25519.pub 
+cd ..
+ls -l
+cd repogit
+ls -l
+rm -r Repo_Carabajal/
+sudo rm -r Repo_Carabajal/
+ls -l
+pwd
+git clone git@github.com:AgustinCara/Repo_Carabajal.git
+ls -l
+cd Repo_Carabajal/
+echo "Hola"
+echo "Hola" > hola.txt
+ls
+git status
+git add .
+git status
+git commit -m "Primer commit 311"
+git push
+cat /etc
+cat /etc/passwd
+head /etc/passwd
+grep bash /etc/passwd
+grep -n bash /etc/passwd
+grep bash /etc/passwd > archivo2.txt
+ls -l
+cat archivo2.txt
+sort archivo2.txt
+man sort
+cat << EOF > archivo3.txt
+linea 1
+linea 2
+linea 3
+EOF
+
+cat archivo3.txt 
+bc <<< 5+2
+cpuinfo
+cat proc/cpuinfo
+cat /proc/cpuinfo
+cat /proc/cpuinfo | grep model
+
+cat /proc/cpuinfo | grep name
+cat /proc/cpuinfo | grep name | head -n1
+exit
+cd repogit
+cd TP_AySO/
+pwd
+ls -l
+git add .
+git status
+gitcommit-m"ADD:agregado1erejercicio
+ sobredatos_usuarios.txt"
+git commit-m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git commit -m "ADD: agregado 1er ejercicio sobre datos_usuarios.txt"
+git status
+/proc
+cat /proc/cpuinfo | grep model | tail -n1 | head -n1
+cat /proc/cpuinfo | tail -n1 | head -n1
+cat /proc/cpuinfo | grep | tail -n1 | head -n1
+cat /proc/cpuinfo | grep model 
+cat /proc/cpuinfo | grep model name
+cat /proc/cpuinfo | grep "model name"
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1 >>
+>>
+cat /proc/cpuinfo | grep "model name" | head -n1
+>>
+> >
+cat /proc/cpuinfo | grep "model name" | head -n1
+cat /proc/cpuinfo | grep "model name" | head -n1 | >>
+cat /proc/cpuinfo | grep "model name" | head -n1 |>>
+cat /proc/cpuinfo | grep "model name" | head -n1 | >
+cat /proc/cpuinfo | grep "model name" | >>
+cat /proc/cpuinfo | grep | tail -n1 | head -n1 | "model name" | >>
+git status
+cat /proc/cpuinfo | grep "model name" | tail -n1 | head -n1
+>> datos_usuario.txt 
+git status
+cat /proc/cpuinfo | grep "model name" | tail -n1 | head -n1 | >> datos_usuario.txt 
+git status
+git add .
+git status
+git commit -m "feat: Añadiendo información de CPU"
+git push
+cat /proc/cpuinfo | grep "model name" | tail -n1 | head -n1
+model name      : 12th Gen Intel(R) Core(TM) i5-12400 >> datos_usuario.txt 
+git status
+cat /proc/cpuinfo | grep "model name" | tail -n1 | head -n1 | >> datos_usuario.txt 
+git status
+cat /proc/cpuinfo | grep "model name" | tail -n1 | head -n1 >> datos_usuario.txt 
+git status
+git add .
+git commit -m "feat: Añadiendo información de CPU"
+git push
+ls -l
+exit
+cd repogit
+git clone git@github.com:AgustinCara/Repo_Carabajal.git
+cd ..
+ssh-keygen
+cat $HOME/.ssh/*.pub
+cd
+cd repogit
+git clone git@github.com:AgustinCara/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat /etc/os-release
+man grep
+grep HOME_URL /etc/os-release
+grep home_url /etc/os-release
+man grep
+grep -i Home_url /etc/os-release
+whoami
+usuario:<agustin_cara>
+whoami
+echo“Usuario=$(whoami)”>datos_usuario.txt
+grep -i Home_url/etc/os-release
+cd repogit
+cd TP_AySO/
+man sort
+grep -v “nologin” | head -n10 | sort -k
+man sort
+grep -v “nologin” | head -n10 | sort  --key=KEYDEF
+grep -v “nologin” | head -n10 | sort  --key
+grep -v “nologin” | head -n10 | sort -k
+man sort
+grep -v “nologin” | head -n10 | sort -k lista_ordenada 
+cat /etc/passwd
+cat /etc/passwd grep -v “nologin” | head -n10 | sort -k lista_ordenada
+cat /etc/passwd grep -v “nologin” | head -n10 | sort -k 
+cat /etc/passwd grep -v “nologin” | head -n10 | sort -k >> lista_ordenada
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort -k >> lista_ordenada
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort  >> lista_ordenada
+man sort
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort "-k"  >> lista_ordenada
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort-k  >> lista_ordenada
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort: -k  >> lista_ordenada
+cat /etc/passwd | grep -v “nologin” | head -n10 | sort  >> lista_ordenada
+git status
+git add .
+git status
+git commit -m “ADD: Listado de usuarios ordenada”
+git status
+git commit -m “ADD: Listado de usuarios ordenada”
+git commit -m "ADD: Listado de usuarios ordenada"
+git push
+cat /etc/passwd | grep -v “nologin” | head -n10 
+man grep
+cat /etc/passwd | grep -v nologin | head -n10 
+cat /etc/passwd | grep -v nologin | head -n10 | sort  > lista_ordenada
+git status
+git add .
+git status
+git commit -m "ADD: Lista de usuarios ordenada"
+git push
+ls -l
+tcpdump >> comando_dump_net 
+"tcpdump" >> comando_dump_net 
+echo "tcpdump" >> comando_dump_net 
+git status
+git add .
+git status
+git commit -m "ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+echo ""dump traffic" | echo "comando a ejecutar: tcpdump" > comando_dump_net 
+echo "dump traffic" | echo "comando a ejecutar: tcpdump" > comando_dump_net 
+
+git status
+echo "comando a ejecutar: tcpdump" > comando_dump_net 
+git status
+git add .
+git status
+git commit -m "“ADD: Comando para Capturar y analizar el tráfico de red"
+git push
+echo Alumno: <Agustin-Carabajal>
+echo Alumno: <Agustin-Carabajal> >> README.md 
+echo "Alumno: <Agustin-Carabajal>" >> README.md 
+echo "Division: <311>" >> README.md 
+echo "Turno: <Noche>" >> README.md 
+git status
+git add .
+git status
+git commit -m "ADD: Datos de alumno" 
+git push
+history -a
+history -a  $HOME/.bash_history
+history-a
+history -a
+sudo history -a
+history -a >> $HOME/.bash_history
